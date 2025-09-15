@@ -1,0 +1,19 @@
+Script started on 2025-09-15 11:57:40+03:00 [TERM="tmux-256color" TTY="/dev/pts/2" COLUMNS="78" LINES="30"]
+[?2004h[01;32maeket@aeket-VivoBook[00m:[01;34m~/src/part12-containers-applications[00m$ docker run 0[K-it ubun tu bash
+[?2004lUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K76249c7cd503: Pulling fs layer [1B[1A[2K76249c7cd503: Downloading  2.097MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  4.194MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  6.291MB/29.72MB[1B[1A[2K76249c7cd503: Downloading   7.34MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  9.437MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  11.53MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  12.58MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  14.68MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  15.73MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  16.78MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  17.83MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  18.87MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  20.97MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  22.02MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  23.07MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  23.07MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  24.12MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  25.17MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  25.17MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  27.26MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  28.31MB/29.72MB[1B[1A[2K76249c7cd503: Downloading  29.72MB/29.72MB[1B[1A[2K76249c7cd503: Download complete [1B[1A[2K76249c7cd503: Extracting 1 s[1B[1A[2K76249c7cd503: Extracting 1 s[1B[1A[2K76249c7cd503: Extracting 1 s[1B[1A[2K76249c7cd503: Extracting 1 s[1B[1A[2K76249c7cd503: Extracting 1 s[1B[1A[2K76249c7cd503: Pull complete [1BDigest: sha256:9cbed754112939e914291337b5e554b07ad7c392491dba6daf25eef1332a22e8
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@e48fceaca69b: /root@e48fceaca69b:/# md /usr/src/app
+[?2004lbash: md: command not found
+[?2004h]0;root@e48fceaca69b: /root@e48fceaca69b:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@e48fceaca69b: /root@e48fceaca69b:/# touch /usr/src/app/index.js
+[?2004l[?2004h]0;root@e48fceaca69b: /root@e48fceaca69b:/# [Kls /usr/s     srv/    usr/src/app/
+[?2004lindex.js
+[?2004h]0;root@e48fceaca69b: /root@e48fceaca69b:/# exit
+[?2004lexit
+[?2004h[01;32maeket@aeket-VivoBook[00m:[01;34m~/src/part12-containers-applications[00m$ exit
+[?2004lexit
+
+Script done on 2025-09-15 11:59:59+03:00 [COMMAND_EXIT_CODE="0"]
