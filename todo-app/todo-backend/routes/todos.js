@@ -22,11 +22,6 @@ router.post('/', async (req, res) => {
   res.send(todo);
 });
 
-router.get('/statistics', async (req, res) => {
-  const currentCount = await getAsync('added_todos')
-  res.json({added_todos: parseInt(currentCount)
-  })
-})
 
 const singleRouter = express.Router();
 
