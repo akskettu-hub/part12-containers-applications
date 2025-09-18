@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <TodoView />
-      <p>this is a test...</p>
     </div>
   );
 }
