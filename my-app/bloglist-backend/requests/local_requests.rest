@@ -1,0 +1,39 @@
+GET http://localhost:3003/api/blogs
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY4NjNiODI1ZmJjNmM2YjQ0NjhhZWM2ZiIsImlhdCI6MTc1MTQ0MTEyMn0.9BKomMEU6KXAE1weYNLQ-BqTn1nl42duTwfHUDPFY3s
+
+{
+    "title": "for deleting nr.2",
+    "author": "Chauncy",
+    "url": "blog.com/Chauncy",
+    "likes": 7
+}
+###
+DELETE http://localhost:3003/api/blogs/6864deee7c8af64dfe47554c
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY4NjNiODI1ZmJjNmM2YjQ0NjhhZWM2ZiIsImlhdCI6MTc1MTQ0MTEyMn0.9BKomMEU6KXAE1weYNLQ-BqTn1nl42duTwfHUDPFY3s
+
+###
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+    "username": "Mike",
+    "name": "Andrew",
+    "password": "password987987"
+}
+### 
+GET http://localhost:3003/api/users
+
+###
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+    "username": "root",
+    "password": "password987987"
+}
+
+
